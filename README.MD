@@ -83,3 +83,4 @@ rolling_median = Series(data).rolling(window=window_size).median()
 consecutive_anomalies = 2
 is_anomaly = all(anomaly_flags[-consecutive_anomalies:])
 ```
+![Alt text](anomaly_k8s_metrics.png?raw=true "Demo")
